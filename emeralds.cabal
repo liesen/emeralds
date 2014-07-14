@@ -1,0 +1,17 @@
+name:                emeralds
+version:             0.1.0.0
+license:             MIT
+license-file:        LICENSE
+author:              Johan Liesén
+maintainer:          johan@liesen.se
+build-type:          Simple
+extra-source-files:
+  EMERALDS.ipynb
+  README.md
+  haskell.hs
+  Makefile
+cabal-version:       >=1.10
+
+library
+  build-depends:       base >=4.7 && <5, diagrams ==1.2.*, colour ==2.3.*
+  default-language:    Haskell2010
